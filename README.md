@@ -1,2 +1,1 @@
-# CV_Pavel_Laukhin
-My CV written in Swift. Just for fun :]
+### I wrote my CV in Swift. Just for fun :]
