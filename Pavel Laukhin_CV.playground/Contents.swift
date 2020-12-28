@@ -50,12 +50,12 @@ print("""
 class IOSDeveloper: Perfectionist, AnalyticalMindProtocol, StrongInterpersonalSkilsProtocol,  CreativeMindProtocol, HighPerformerProtocol  {
     
     let name = "Pavel Laukhin"
-    var age = "34"
+    var yearOfBirth = 1986
     var location = "Moscow"
     var education: [University: Specialization]  = [
         "Moscow State Technical University. N.E. Bauman (MSTU)" : "Design of laser and optical equipment",
         "Academic International Institute" : "Information Management"]
-    let telephone = "+7(903)688-68-34"
+    let phoneNumber = "+7(903)688-68-34"
     let telegram = "@mainpavel"
     let linkedIn = "mainpavel"
     var goals = [
