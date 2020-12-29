@@ -50,7 +50,7 @@ print("""
 class IOSDeveloper: Perfectionist, AnalyticalMindProtocol, StrongInterpersonalSkilsProtocol,  CreativeMindProtocol, HighPerformerProtocol  {
     
     let name = "Pavel Laukhin"
-    var yearOfBirth = 1986
+    let yearOfBirth = 1986
     var location = "Moscow"
     var education: [University: Specialization]  = [
         "Moscow State Technical University. N.E. Bauman (MSTU)" : "Design of laser and optical equipment",
@@ -82,7 +82,7 @@ class IOSDeveloper: Perfectionist, AnalyticalMindProtocol, StrongInterpersonalSk
 enum Skills: String, IOSSkillsProtocol {
     case iOSDevExperience = "About 1 year"
     case professionalTraining = "OEC Netology-group: 1) Swift Basics. 2) Introduction to iOS Development. 3) Git is a version control system. 4) User interface. 5) Multithreading. Podlodka iOS Crew: 1) Week of UI. 2) Week of Multithreading."
-    case iOSSDK = "Swift, UIKit, Core Animation, Multithreading (GCD, Operation, etc.), Networking(URLSession, etc.), CoreLocation, Cocoa Pods & Carthage (Kingfisher, Alamofire, SwiftSVG, etc.), Generics, Protocols & Dispatch Methods, MVC, DRY, KISS, SOLID"
+    case iOSSDK = "Swift, UIKit, Auto Layout (+ without storyboard), Core Animation, Multithreading (GCD, Operation, etc.), Networking(URLSession, etc.), CoreLocation, Cocoa Pods & Carthage (Kingfisher, Alamofire, SwiftSVG, SnapKit, etc.), Generics, Protocols & Dispatch Methods, MVC, DRY, KISS, SOLID"
     case distributedVersionControlSystems = "Git, GitHub (+ Git Flow approach)"
     case language = "Spoken English & Professional English"
     case others = "Experience of working as a Scrum master, understanding of the Agile approach"
@@ -92,7 +92,7 @@ switch interviewResult {
 case .failure(let error):
     print("Что ж, очень жаль, что я не подошёл вам по причине \(error). Всё равно было приятно помечтать о работе в вашей компании. Не смотря ни на что, желаю вам успехов и процветания. Мир тесен, может в следующий раз получится. Хороших вам кандидатов, поменьше пробок на дорогах и побольше довольных клиентов! Всего доброго! С уважением, Павел Лаухин.")
 case .success(_):
-    print("Отлично! Вот мой номер телефона и телеграма: +7(903)688-68-34, @mainpavel. Вы можете связаться со мной в любое удобное время (Просьба набрать повторно в течение 5 минут, если не дозвонились с первого раза. Когда я включаю режим «Не беспокоить» (во время учёбы или сосредоточенных дел), я всё ещё доступен, если перезвонить повторно в течение 5 минут). С нетерпением жду звонка!")
+    print("Отлично! Вот мой номер телефона и телеграма: +7(903)688-68-34, @mainpavel. Вы можете связаться со мной в любое удобное время (я сразу же доступен во время учёбы или сосредоточенных дел, если перезвонить повторно в течение 5 минут). С нетерпением жду звонка!")
 }
 /*:
  ### Проверка работы кода
