@@ -56,8 +56,8 @@ class IOSDeveloper: Perfectionist, AnalyticalMindProtocol, StrongInterpersonalSk
         "Moscow State Technical University. N.E. Bauman (MSTU)" : "Design of laser and optical equipment",
         "Academic International Institute" : "Information Management"]
     let phoneNumber = "+7(903)688-68-34"
-    let telegram = "@mainpavel"
-    let linkedIn = "mainpavel"
+    let telegram = "@okpavel"
+    let linkedIn = "okpavel"
     var goals = [
         "Long-term work in a team of professionals",
         "The development of skills in writing elegant clean code",
@@ -92,7 +92,7 @@ switch interviewResult {
 case .failure(let error):
     print("Что ж, очень жаль, что я не подошёл вам по причине \(error). Всё равно было приятно помечтать о работе в вашей компании. Не смотря ни на что, желаю вам успехов и процветания. Мир тесен, может в следующий раз получится. Хороших вам кандидатов, поменьше пробок на дорогах и побольше довольных клиентов! Всего доброго! С уважением, Павел Лаухин.")
 case .success(_):
-    print("Отлично! Вот мой номер телефона и телеграма: +7(903)688-68-34, @mainpavel. Вы можете связаться со мной в любое удобное время (я сразу же доступен во время учёбы или сосредоточенных дел, если перезвонить повторно в течение 5 минут). С нетерпением жду звонка!")
+    print("Отлично! Вот мой номер телефона и телеграма: +7(903)688-68-34, @mainpavel. Вы можете связаться со мной в любое время (я сразу же доступен во время учёбы или сосредоточенных дел, если перезвонить повторно в течение 5 минут). С нетерпением жду звонка!")
 }
 /*:
  ### Проверка работы кода
