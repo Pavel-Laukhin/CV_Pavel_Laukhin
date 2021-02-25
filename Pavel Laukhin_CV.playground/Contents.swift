@@ -70,7 +70,7 @@ class IOSDeveloper: Perfectionist, AnalyticalMindProtocol, StrongInterpersonalSk
         }
         let result: WorkResult = {
             // do work here...
-            let isDone = true
+            let isDone = Bool.random()
             guard isDone else { return .failure(.needHelp) }
             return .success("Work is done")
         }()
@@ -81,6 +81,7 @@ class IOSDeveloper: Perfectionist, AnalyticalMindProtocol, StrongInterpersonalSk
 
 enum Skills: String, IOSSkillsProtocol {
     case iOSDevExperience = "More than 1 year"
+    case iOSCommercialDevExperience = "More than 2 months in White&Fluffy"
     case professionalTraining = "OEC Netology-group: 1) Swift Basics. 2) Introduction to iOS Development. 3) Git is a version control system. 4) User interface. 5) Multithreading. Podlodka iOS Crew: 1) Week of UI. 2) Week of Multithreading."
     case iOSSDK = "Swift, UIKit, Auto Layout (+ without storyboard), Core Animation, Multithreading (GCD, Operation, etc.), Networking(URLSession, etc.), CoreLocation, Cocoa Pods & Carthage (Kingfisher, Alamofire, SwiftSVG, SnapKit, etc.), Generics, Protocols & Dispatch Methods, MVC, DRY, KISS, SOLID"
     case distributedVersionControlSystems = "Git, GitHub (+ Git Flow approach)"
