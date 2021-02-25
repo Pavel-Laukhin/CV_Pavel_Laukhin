@@ -2,10 +2,10 @@ import UIKit
 
 //: Сначала нужно объявить несколько протоколов и алиасов, чтобы избежать ошибок компиляции. Можно пропустить эту часть и сразу перейти к Сопроводительному письму и Резюме. :]
 protocol AnalyticalMindProtocol {}
-protocol StrongInterpersonalSkilsProtocol {}
+protocol StrongInterpersonalSkillsProtocol {}
 protocol CreativeMindProtocol {}
 protocol HighPerformerProtocol {}
-protocol CompositionOfAllMentionedProtocols: AnalyticalMindProtocol, StrongInterpersonalSkilsProtocol, CreativeMindProtocol, HighPerformerProtocol {}
+protocol CompositionOfAllMentionedProtocols: AnalyticalMindProtocol, StrongInterpersonalSkillsProtocol, CreativeMindProtocol, HighPerformerProtocol {}
 protocol IOSSkillsProtocol {}
 
 class AllStuff: CompositionOfAllMentionedProtocols & IOSSkillsProtocol {}
@@ -30,7 +30,7 @@ let interviewResult = Result<String, Error>(catching: body)
 /*:
  ## Сопроводительное письмо
  */
-//TODO: тут вставить своё фото, где я улыбаюсь, чтобы со мной прям хотелось сотруничать :]
+//TODO: тут вставить своё фото, где я улыбаюсь, чтобы со мной прям хотелось сотрудничать :]
 
 print("""
     Добрый \(currentTimeOfDay), уважаемые сотрудники \(companyName)!"
@@ -47,7 +47,7 @@ print("""
 /*:
  ## Резюме
  */
-class IOSDeveloper: Perfectionist, AnalyticalMindProtocol, StrongInterpersonalSkilsProtocol,  CreativeMindProtocol, HighPerformerProtocol  {
+class IOSDeveloper: Perfectionist, AnalyticalMindProtocol, StrongInterpersonalSkillsProtocol,  CreativeMindProtocol, HighPerformerProtocol  {
     
     let name = "Pavel Laukhin"
     let yearOfBirth = 1986
@@ -80,7 +80,7 @@ class IOSDeveloper: Perfectionist, AnalyticalMindProtocol, StrongInterpersonalSk
 }
 
 enum Skills: String, IOSSkillsProtocol {
-    case iOSDevExperience = "About 1 year"
+    case iOSDevExperience = "More than 1 year"
     case professionalTraining = "OEC Netology-group: 1) Swift Basics. 2) Introduction to iOS Development. 3) Git is a version control system. 4) User interface. 5) Multithreading. Podlodka iOS Crew: 1) Week of UI. 2) Week of Multithreading."
     case iOSSDK = "Swift, UIKit, Auto Layout (+ without storyboard), Core Animation, Multithreading (GCD, Operation, etc.), Networking(URLSession, etc.), CoreLocation, Cocoa Pods & Carthage (Kingfisher, Alamofire, SwiftSVG, SnapKit, etc.), Generics, Protocols & Dispatch Methods, MVC, DRY, KISS, SOLID"
     case distributedVersionControlSystems = "Git, GitHub (+ Git Flow approach)"
